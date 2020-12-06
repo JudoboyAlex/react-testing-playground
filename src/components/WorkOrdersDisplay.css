@@ -1,0 +1,32 @@
+.imageContainer {
+  display: flex;
+  padding-top: 1rem;
+}
+
+img {
+  border-radius: 50%;
+  width: 5.5rem;
+}
+
+ul.workOrderDetails {
+  list-style-type: none;
+  background-color: #2196f3;
+}
+
+.workOrderHeader {
+  padding-top: 0.5rem;
+}
+
+.workOrderFooter {
+  margin-left: 7rem;
+  font-size: 0.9rem;
+  padding-bottom: 1rem;
+}
+
+.workerDetails {
+  margin-left: 1.5rem;
+}
+
+ul.workOrderDetails .workOrderHeader li:nth-child(2) {
+  padding-top: 0.5rem;
+}
